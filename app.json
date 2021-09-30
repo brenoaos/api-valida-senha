@@ -1,0 +1,13 @@
+{
+    "name": "api-valida-senha",
+    "description": "api-valida-senha",
+    "version": "1.0.0",
+    "engines": {
+        "node": "14.x"
+    },
+    "script": {
+        "start": "node dist/main.js",
+        "test": "cd app && npm run test",
+        "build": "cd app && npm run build"
+    }
+}
