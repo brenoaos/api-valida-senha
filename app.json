@@ -1,13 +1,19 @@
 {
-    "name": "api-valida-senha",
-    "description": "api-valida-senha",
-    "version": "1.0.0",
-    "engines": {
-        "node": "14.x"
+    "name": "Api sistema Objetos",
+    "description": "Api sistema Objetos",
+    "keywords": [],
+    "success_url": "/welcome",
+    "scripts": {
+      "postdeploy": "bundle exec rake bootstrap"
     },
-    "script": {
-        "start": "node dist/main.js",
-        "test": "cd app && npm run test",
-        "build": "cd app && npm run build"
+    "image": "heroku/nodejs",    
+    "environments": {
+      "prod": {
+        "scripts": {
+          "build": "npm rum build",
+          "start": "npm rum start",
+          "test": "npm run test"
+        }
+      }
     }
-}
+  }

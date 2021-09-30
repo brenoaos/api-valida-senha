@@ -1,7 +1,7 @@
 <h1 align="center">Api Testa Senha</h1>
 
 <div align="center">
-
+    [Aplicação Online](https://api-valida-senha-prod.herokuapp.com/)
 </div>
 
 
@@ -37,12 +37,12 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 No primeiro passo, clone o projeto:
 
 ```
-api-valida-senhagit clone https://github.com/brenoaos/api-valida-senha.git
+git clone https://github.com/brenoaos/api-valida-senha.git
 ```
 
 Navegue até a pasta da aplicação.
 ```
-cd apiValidaSenha/app
+cd api-valida-senha/app
 ```
 
 Em seguida, será necessario instalar os modulos da aplicação. Para isso, execute o comando abaixo usando o seu gerenciador de pacotes:
