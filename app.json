@@ -4,15 +4,15 @@
     "keywords": [],
     "success_url": "/welcome",
     "scripts": {
-        "postdeploy": "bundle exec rake bootstrap"
+      "postdeploy": "bundle exec rake bootstrap"
     },
+    "image": "heroku/nodejs",    
     "environments": {
-        "prod": {
-            "scripts": {
-                "build": "npm rum build",
-                "start": "node dist/main.js",
-                "test": "npm run test"
-            }
+      "prod": {
+        "scripts": {
+          "build": "npm rum build",
+          "start": "node dist/main.js"
         }
+      }
     }
-}
+  }
