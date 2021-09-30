@@ -10,7 +10,7 @@
         "prod": {
             "scripts": {
                 "build": "npm rum build",
-                "start": "npm rum start",
+                "start": "node dist/main.js",
                 "test": "npm run test"
             }
         }
