@@ -1,6 +1,6 @@
 # compiled output
-/app/dist
-/app/node_modules
+/dist
+/node_modules
 
 # Logs
 logs
